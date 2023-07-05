@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&family=Tilt+Warp&display=swap');
+.bigFont {
+    font-family: 'Caprasimo', cursive;
+}
+
+.text-gradient {
+    background: linear-gradient(
+      to left,
+      #87c432 42.04%,
+      #79aa3a 55.12%,
+      #6e9e2e 71.54%,
+      #379237 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.heroFont {
+    font-family: 'Tilt Warp', cursive;
+}
+
+.herobg {
+    background: url('/src/assets/herobgfinal.jpg');
+    background-size: cover;
+    
+}
+
+.niceFont {
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.galleryback {
+    background-image: linear-gradient(45deg, #F5F5F5,#F5F5F5,#EEE2DE);
+}
